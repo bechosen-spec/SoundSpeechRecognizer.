@@ -13,7 +13,7 @@ def predict(audio):
     return classes[index]
 
 # Load the trained model from the file
-model = load_model("/home/boniface/Desktop/Projects/SoundSpeechRecognizer./best_model (1).hdf5")
+model = load_model("best_model (1).hdf5")
 
 # Define the list of classes
 classes = ['_background_noise_', 'bed', 'bird', 'cat', 'dog', 'down', 'eight', 'five', 'four', 'go', 'happy', 'house', 'left', 'marvin', 'nine', 'no', 'off', 'on', 'one', 'right', 'seven', 'sheila', 'six', 'stop', 'three', 'tree', 'two', 'up', 'wow', 'yes', 'zero']
